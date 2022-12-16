@@ -9,6 +9,7 @@ import java.util.Date;
 
 @Entity
 @Data
+@Table(name = "tb_income")
 public class Income {
 
     @Id
@@ -25,6 +26,6 @@ public class Income {
     private IncomeType incomeType;
 
     @Column(nullable = false)
-    private float value;
+    private float incomeValue;
 
 }

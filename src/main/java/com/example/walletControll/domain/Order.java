@@ -13,6 +13,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "tb_order")
 public class Order {
 
     @Id
